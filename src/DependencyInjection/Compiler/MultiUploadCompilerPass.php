@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\Compiler;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\Compiler;
 
-use SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;

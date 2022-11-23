@@ -1,9 +1,9 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Pool;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\Pool;
 
 use PHPUnit\Framework\TestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
 use Sonata\MediaBundle\Provider\MediaProviderInterface;
 
 class ProviderChainTest extends TestCase

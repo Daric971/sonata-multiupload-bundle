@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

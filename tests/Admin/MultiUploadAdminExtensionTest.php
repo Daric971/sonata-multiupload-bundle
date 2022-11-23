@@ -1,10 +1,10 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Admin;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\Admin;
 
 use PHPUnit\Framework\TestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
-use SilasJoisten\Sonata\MultiUploadBundle\Tests\Fixture\Admin\FakeAdmin;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\Fixture\Admin\FakeAdmin;
 use Sonata\AdminBundle\Model\AuditManager;
 use Sonata\AdminBundle\Route\PathInfoBuilder;
 use Sonata\AdminBundle\Security\Handler\NoopSecurityHandler;

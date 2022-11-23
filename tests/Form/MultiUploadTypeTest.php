@@ -1,8 +1,8 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Form;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\Form;
 
-use SilasJoisten\Sonata\MultiUploadBundle\Form\MultiUploadType;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Form\MultiUploadType;
 use Symfony\Component\Form\Extension\Core\Type\FileType;
 use Symfony\Component\Form\Extension\Core\Type\HiddenType;
 use Symfony\Component\Form\FormBuilderInterface;

@@ -1,10 +1,10 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\DependencyInjection\Compiler;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\DependencyInjection\Compiler;
 
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractContainerBuilderTestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\Compiler\MultiUploadCompilerPass;
-use SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\Compiler\MultiUploadCompilerPass;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
 use Sonata\MediaBundle\Provider\ImageProvider;
 use Symfony\Component\DependencyInjection\Definition;
 

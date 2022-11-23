@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Twig;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Twig;
 
-use SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
 use Sonata\MediaBundle\Provider\MediaProviderInterface;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;

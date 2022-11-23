@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Pool;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Pool;
 
 use Sonata\MediaBundle\Provider\MediaProviderInterface;
 use Webmozart\Assert\Assert;

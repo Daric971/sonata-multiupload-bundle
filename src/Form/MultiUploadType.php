@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Form;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\FileType;

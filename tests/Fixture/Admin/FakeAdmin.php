@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Fixture\Admin;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\Fixture\Admin;
 
-use SilasJoisten\Sonata\MultiUploadBundle\Tests\Fixture\Entity\Fake;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\Fixture\Entity\Fake;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 
 /**

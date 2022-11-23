@@ -1,13 +1,13 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\DependencyInjection;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Tests\DependencyInjection;
 
 use Matthias\SymfonyDependencyInjectionTest\PhpUnit\AbstractExtensionTestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
-use SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController;
-use SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\SonataMultiUploadExtension;
-use SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
-use SilasJoisten\Sonata\MultiUploadBundle\Twig\MultiUploadExtension;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Admin\MultiUploadAdminExtension;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\SonataMultiUploadExtension;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Pool\ProviderChain;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Twig\MultiUploadExtension;
 use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 
 class SonataMultiUploadExtensionTest extends AbstractExtensionTestCase

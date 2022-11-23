@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Controller;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Controller;
 
 use OskarStark\Symfony\Http\Responder;
-use SilasJoisten\Sonata\MultiUploadBundle\Form\MultiUploadType;
+use Daric\SilasJoisten\Sonata\MultiUploadBundle\Form\MultiUploadType;
 use Sonata\AdminBundle\Controller\CRUDController;
 use Sonata\Doctrine\Model\ManagerInterface;
 use Sonata\MediaBundle\Model\MediaInterface;

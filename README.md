@@ -37,7 +37,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             // ...
-            new SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle(),
+            new Daric\SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle(),
         );
 
         // ...
@@ -53,7 +53,7 @@ If you are using flex register bundle in `config/bundles.php`:
 
 return [
     //...
-    SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle::class => ['all' => true]
+    Daric\SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle::class => ['all' => true]
 ];
 ```
 

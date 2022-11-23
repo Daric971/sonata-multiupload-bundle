@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Controller;
+namespace Daric\SilasJoisten\Sonata\MultiUploadBundle\Controller;
 
 use Sonata\AdminBundle\Controller\CRUDController;
 use Sonata\MediaBundle\Provider\Pool;
