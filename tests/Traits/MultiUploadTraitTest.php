@@ -1,9 +1,9 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Tests\Traits;
+namespace Daric\Sonata\MultiUploadBundle\Tests\Traits;
 
 use PHPUnit\Framework\TestCase;
-use SilasJoisten\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
+use Daric\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
 
 class MultiUploadTraitTest extends TestCase
 {

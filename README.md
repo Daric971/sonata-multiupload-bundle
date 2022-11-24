@@ -1,18 +1,15 @@
-silasjoisten/sonata-multiupload-bundle
+daric971/sonata-multiupload-bundle
 ======================================
-[![Build Status](https://travis-ci.org/silasjoisten/sonata-multiupload-bundle.svg?branch=master)](https://travis-ci.org/silasjoisten/sonata-multiupload-bundle)
-[![Latest Stable Version](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/v/stable)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![Total Downloads](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/downloads)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/v/unstable)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![License](https://poser.pugx.org/silasjoisten/sonata-multiupload-bundle/license)](https://packagist.org/packages/silasjoisten/sonata-multiupload-bundle)
-[![codecov](https://codecov.io/gh/silasjoisten/sonata-multiupload-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/silasjoisten/sonata-multiupload-bundle)
 
+## Intro
+It's just a fork of `silasjoisten/sonata-multiupload-bundle` used for allow sonata 3.x with php8.
+Because, the upgrade from 3.3 to 3.4 version doesn't allow this transition.
 ## Installation
 
 ### Step 1: Download the Bundle
 
 ```console
-composer require silasjoisten/sonata-multiupload-bundle
+composer require daric971/sonata-multiupload-bundle
 ```
 
 ### Step 2: Enable the Bundle
@@ -29,7 +26,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
             // ...
-            new SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle(),
+            new Daric\Sonata\MultiUploadBundle\SonataMultiUploadBundle(),
         );
 
         // ...
@@ -45,7 +42,7 @@ If you are using flex register bundle in `config/bundles.php`:
 
 return [
     //...
-    SilasJoisten\Sonata\MultiUploadBundle\SonataMultiUploadBundle::class => ['all' => true]
+    Daric\Sonata\MultiUploadBundle\SonataMultiUploadBundle::class => ['all' => true]
 ];
 ```
 
@@ -57,7 +54,7 @@ First you need to override the default `MediaAdminController.php` via:
 # config/services.yaml
 
 parameters:
-    sonata.media.admin.media.controller: SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController
+    sonata.media.admin.media.controller: Daric\Sonata\MultiUploadBundle\Controller\MultiUploadController
 
 services:
     # ...
@@ -97,7 +94,7 @@ App\Provider\VideoProvider:
 ```
 
 In your provider where you want to use multiupload you need to add the
-`SilasJoisten\Sonata\MultiUploadBundle\Traits\MultiUploadTrait` trait.
+`Daric\Sonata\MultiUploadBundle\Traits\MultiUploadTrait` trait.
 If you dont know how to use them take a look at 
 [PHP trait definintion](http://php.net/manual/en/language.oop5.traits.php)
 
@@ -105,7 +102,7 @@ In the following you see how to use the `MultiUploadTrait`:
 ```php
 namespace App\Provider;
 
-use SilasJoisten\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
+use Daric\Sonata\MultiUploadBundle\Traits\MultiUploadTrait;
 
 final class VideoProvider extends FileProvider
 {
@@ -158,7 +155,7 @@ In your `MediaAdminController.php`:
 namespace App\Controller;
 
 use App\Application\Sonata\MediaBundle\Admin\GalleryAdmin;
-use SilasJoisten\Sonata\MultiUploadBundle\Controller\MultiUploadController;
+use Daric\Sonata\MultiUploadBundle\Controller\MultiUploadController;
 use Sonata\MediaBundle\Entity\MediaManager;
 use Sonata\MediaBundle\Entity\GalleryManager;
 

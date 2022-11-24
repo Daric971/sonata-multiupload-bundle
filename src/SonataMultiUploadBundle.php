@@ -1,8 +1,8 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle;
+namespace Daric\Sonata\MultiUploadBundle;
 
-use SilasJoisten\Sonata\MultiUploadBundle\DependencyInjection\Compiler\MultiUploadCompilerPass;
+use Daric\Sonata\MultiUploadBundle\DependencyInjection\Compiler\MultiUploadCompilerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

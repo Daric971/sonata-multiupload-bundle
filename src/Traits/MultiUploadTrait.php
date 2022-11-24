@@ -1,6 +1,6 @@
 <?php
 
-namespace SilasJoisten\Sonata\MultiUploadBundle\Traits;
+namespace Daric\Sonata\MultiUploadBundle\Traits;
 
 trait MultiUploadTrait
 {
